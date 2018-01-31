@@ -4,6 +4,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.Window;
 
 import java.io.IOException;
 
@@ -28,5 +29,9 @@ public class Navigator {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static Stage getStage() {
+        return stage;
     }
 }

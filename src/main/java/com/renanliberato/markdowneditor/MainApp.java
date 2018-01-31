@@ -14,6 +14,8 @@ public class MainApp extends Application {
     }
 
     public void start(Stage stage) throws Exception {
+        stage.setWidth(1020.0);
+        stage.setHeight(600.0);
         Navigator.setStage(stage);
 
         Navigator.navigateToEditor();
